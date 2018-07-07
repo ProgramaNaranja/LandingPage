@@ -1,0 +1,10 @@
+@import 'variables';
+
+body{
+    background-color: $fondocolor-pagina;
+    font-family: $fuente-normal;
+}
+
+h1, h2 {
+    font-family: $fuente-titulo;
+}
