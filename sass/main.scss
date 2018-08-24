@@ -3,9 +3,11 @@
 body{
     background-color: $fondocolor-pagina;
     font-family: $fuente-normal;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-h1, h2 {
+ h2 {
     font-family: $fuente-titulo;
 }
 
@@ -16,14 +18,33 @@ h1, h2 {
     margin-right: auto;
     background-color: $fondocolor-comercial;
 }
-.propuesta {
+
+
+.Propuesta {
     width: 100%;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
- 
+    height: 60%;
+    background-image:$image;
+    image-resolution: 300dpi;
+    color: $colorPR;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: antiquewhite;
+    font-style: oblique;
+    font-size: 150%;
+    opacity: 0.5;
 }
 
+.Motivacion{
+    font-size: 130%;
+}
+
+#PR{
+    color: gray;
+    margin-top: 3%;
+    font-style: normal;
+}
 .col-md-4{
     position: relative;
     min-height: 1px;
@@ -31,19 +52,22 @@ h1, h2 {
     padding-left: 15px;
 }
 
-.card-blue{
-    width: 90%;
-    min-height: 290px;
-    padding: 10px 30px;
-    border: 1px solid rgb(221, 221, 221);
-    border-radius: 10px;
-    text-align: center;
-    margin-left: 3%;
-}
 
-h2{
- font-family: $fuente-titulo;
-}
-p{
+h3{
     font-family: $fuente-normal;
    }
+
+.galeria{
+    background: #cccccc;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.4em;
+    margin-right: 5px;
+    margin-top:1%;
+    text-align: center;
+    width: 1.4em; 
+}

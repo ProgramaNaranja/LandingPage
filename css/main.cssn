@@ -2,8 +2,6 @@
 body {
   background-color: #fff;
   font-family: "Roboto Slab", serif;
-  margin-left: 0%;
-  margin-right: 0%;
 }
 
 h2 {
@@ -18,30 +16,12 @@ h2 {
   background-color: #000;
 }
 
-.Propuesta {
+.propuesta {
   width: 100%;
-  height: 60%;
-  background-image: url("../img/bg.png");
-  image-resolution: 300dpi;
-  color: #7e2c2c;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  color: antiquewhite;
-  font-style: oblique;
-  font-size: 150%;
-  opacity: 0.5;
-}
-
-.Motivacion {
-  font-size: 130%;
-}
-
-#PR {
-  color: gray;
-  margin-top: 3%;
-  font-style: normal;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: red;
 }
 
 .col-md-4 {
@@ -49,6 +29,22 @@ h2 {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.card-blue {
+  width: 90%;
+  min-height: 290px;
+  padding: 10px 30px;
+  border: 1px solid #15d0f1;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 3%;
+}
+
+#PR {
+  font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+  background-color: #e2dcdc;
+  color: #7e2c2c;
 }
 
 h3 {
@@ -63,11 +59,10 @@ h3 {
   color: #ffffff;
   display: inline-block;
   font-weight: bold;
-  line-height: 1.4em;
+  line-height: 1.6em;
   margin-right: 5px;
-  margin-top: 1%;
   text-align: center;
-  width: 1.4em;
+  width: 1.6em;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.cssn.map */
